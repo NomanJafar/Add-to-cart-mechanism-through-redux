@@ -1,5 +1,6 @@
 
 import './App.css';
+import HeaderContainer from './containers/HeaderContainer';
 import HomeContainer from "./containers/HomeContainer";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className="App" >
       
 
-      <h1>good to see you live</h1>
+      <HeaderContainer></HeaderContainer>
       <HomeContainer></HomeContainer>
     </div>
   );
